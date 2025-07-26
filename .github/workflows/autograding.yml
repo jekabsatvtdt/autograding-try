@@ -1,6 +1,6 @@
 name: Autograde Hello World
 
-on: [push, pull_request]
+on: [push, pull_request, repository_dispatch]
 
 jobs:
   autograde:
